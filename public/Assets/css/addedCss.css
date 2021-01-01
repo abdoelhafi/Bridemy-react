@@ -1,0 +1,25 @@
+/* this top-btn is added by me */
+.top-btn{
+    min-width: 128px;
+  }
+/* here will be evry thing changed */
+  .section .section-header .section-header-breadcrumb {
+    margin-left: 0;
+    /* here i idited it to this */
+    /* margin-left: auto; */
+
+    display: flex;
+    align-items: center; }
+
+/* here was a modification : .navbar class deleted */
+      /* body.sidebar-mini .navbar {
+        left: 65px; } ..> */
+        body.sidebar-mini{
+            left: 65px; }
+/* 
+ the padin-left in the bottom is moved from 90 to 30 :
+body.sidebar-mini .main-content, body.sidebar-mini .main-footer {
+  padding-left: 90px; } */
+
+  body.sidebar-mini .main-content, body.sidebar-mini .main-footer {
+    padding-left: 30px; }
