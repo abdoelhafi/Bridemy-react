@@ -1,4 +1,6 @@
 import React, {Fragment} from 'react';
+import Row from '../components/utils/Row'
+import StatRow from '../components/utils/StatRow';
 
 
 class DashMentor extends React.Component {
@@ -21,73 +23,24 @@ class DashMentor extends React.Component {
                                         <div className="col-12 col-md-6 col-lg-6">
                                             <div className="card">
                                                 <div className="card-header">
-                                                    <h4>Full Width</h4>
+                                                    <h4>Séances en cours / Prochaines</h4>
                                                 </div>
                                                 <div className="card-body p-0">
                                                     <div className="table-responsive">
                                                         <table className="table table-striped table-md">
                                                             <tr>
-                                                                <th>#</th>
-                                                                <th>Name</th>
-                                                                <th>Created At</th>
-                                                                <th>Status</th>
-                                                                <th>Action</th>
+                                                                <th>mentoré</th>
+                                                                <th>service</th>
+                                                                <th>type service</th>
+                                                                <th>prix</th>
+                                                                <th>date</th>
                                                             </tr>
-                                                            <tr>
-                                                                <td>1</td>
-                                                                <td>Irwansyah Saputra</td>
-                                                                <td>2017-01-09</td>
-                                                                <td>
-                                                                    <div className="badge badge-success">Active</div>
-                                                                </td>
-                                                                <td>
-                                                                    <a href="#" className="btn btn-secondary">Detail</a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>2</td>
-                                                                <td>Hasan Basri</td>
-                                                                <td>2017-01-09</td>
-                                                                <td>
-                                                                    <div className="badge badge-success">Active</div>
-                                                                </td>
-                                                                <td>
-                                                                    <a href="#" className="btn btn-secondary">Detail</a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>3</td>
-                                                                <td>Kusnadi</td>
-                                                                <td>2017-01-11</td>
-                                                                <td>
-                                                                    <div className="badge badge-danger">Not Active</div>
-                                                                </td>
-                                                                <td>
-                                                                    <a href="#" className="btn btn-secondary">Detail</a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>4</td>
-                                                                <td>Rizal Fakhri</td>
-                                                                <td>2017-01-11</td>
-                                                                <td>
-                                                                    <div className="badge badge-success">Active</div>
-                                                                </td>
-                                                                <td>
-                                                                    <a href="#" className="btn btn-secondary">Detail</a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>5</td>
-                                                                <td>Isnap Kiswandi</td>
-                                                                <td>2017-01-17</td>
-                                                                <td>
-                                                                    <div className="badge badge-success">Active</div>
-                                                                </td>
-                                                                <td>
-                                                                    <a href="#" className="btn btn-secondary">Detail</a>
-                                                                </td>
-                                                            </tr>
+                                                           <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"2021-05-04"}} />
+                                                           <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"2023-05-04"}} />
+                                                           <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"2021-03-04"}} />
+                                                           <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"2021-03-07"}} />
+
+                                                        
                                                         </table>
                                                     </div>
                                                 </div>
@@ -123,73 +76,24 @@ class DashMentor extends React.Component {
                                         <div className="col-12 col-md-6 col-lg-6">
                                             <div className="card">
                                                 <div className="card-header">
-                                                    <h4>Full Width</h4>
+                                                    <h4>Séances passées</h4>
                                                 </div>
                                                 <div className="card-body p-0">
                                                     <div className="table-responsive">
-                                                        <table className="table table-striped table-md">
+                                                    <table className="table table-striped table-md">
                                                             <tr>
-                                                                <th>#</th>
-                                                                <th>Name</th>
-                                                                <th>Created At</th>
-                                                                <th>Status</th>
-                                                                <th>Action</th>
+                                                                <th>mentoré</th>
+                                                                <th>service</th>
+                                                                <th>type service</th>
+                                                                <th>prix</th>
+                                                                <th>date</th>
                                                             </tr>
-                                                            <tr>
-                                                                <td>1</td>
-                                                                <td>Irwansyah Saputra</td>
-                                                                <td>2017-01-09</td>
-                                                                <td>
-                                                                    <div className="badge badge-success">Active</div>
-                                                                </td>
-                                                                <td>
-                                                                    <a href="#" className="btn btn-secondary">Detail</a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>2</td>
-                                                                <td>Hasan Basri</td>
-                                                                <td>2017-01-09</td>
-                                                                <td>
-                                                                    <div className="badge badge-success">Active</div>
-                                                                </td>
-                                                                <td>
-                                                                    <a href="#" className="btn btn-secondary">Detail</a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>3</td>
-                                                                <td>Kusnadi</td>
-                                                                <td>2017-01-11</td>
-                                                                <td>
-                                                                    <div className="badge badge-danger">Not Active</div>
-                                                                </td>
-                                                                <td>
-                                                                    <a href="#" className="btn btn-secondary">Detail</a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>4</td>
-                                                                <td>Rizal Fakhri</td>
-                                                                <td>2017-01-11</td>
-                                                                <td>
-                                                                    <div className="badge badge-success">Active</div>
-                                                                </td>
-                                                                <td>
-                                                                    <a href="#" className="btn btn-secondary">Detail</a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>5</td>
-                                                                <td>Isnap Kiswandi</td>
-                                                                <td>2017-01-17</td>
-                                                                <td>
-                                                                    <div className="badge badge-success">Active</div>
-                                                                </td>
-                                                                <td>
-                                                                    <a href="#" className="btn btn-secondary">Detail</a>
-                                                                </td>
-                                                            </tr>
+                                                           <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"2014-02-03"}} />
+                                                           <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"date of se"}} />
+                                                           <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"date of se"}} />
+                                                           <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"date of se"}} />
+
+                                                        
                                                         </table>
                                                     </div>
                                                 </div>
@@ -226,86 +130,16 @@ class DashMentor extends React.Component {
                                     <div className="reviews ">
                                         <div className="card mt-4 ">
                                             <div className="card-header">
-                                                <h4>User Details</h4>
+                                                <h4>Statisque</h4>
                                             </div>
                                             <div className="card-body">
                                                 <ul
                                                     className="list-unstyled user-details list-unstyled-border list-unstyled-noborder">
-                                                    <li className="media">
-                                                        <img
-                                                            alt="image"
-                                                            className="mr-3 rounded-circle"
-                                                            width="50"
-                                                            src="../assets/img/avatar/avatar-1.png"/>
-                                                        <div className="media-body">
-                                                            <div className="media-title">Rizal Fakhri</div>
-                                                            <div className="text-job text-muted">Web Developer</div>
-                                                        </div>
-                                                        <div className="media-items">
-                                                            <div className="media-item">
-                                                                <div className="media-value">1,239</div>
-                                                                <div className="media-label">Posts</div>
-                                                            </div>
-                                                            <div className="media-item">
-                                                                <div className="media-value">10K</div>
-                                                                <div className="media-label">Followers</div>
-                                                            </div>
-                                                            <div className="media-item">
-                                                                <div className="media-value">2,312</div>
-                                                                <div className="media-label">Following</div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li className="media">
-                                                        <img
-                                                            alt="image"
-                                                            className="mr-3 rounded-circle"
-                                                            width="50"
-                                                            src="../assets/img/avatar/avatar-5.png"/>
-                                                        <div className="media-body">
-                                                            <div className="media-title">Irwansyah Saputra</div>
-                                                            <div className="text-job text-muted">Web Developer</div>
-                                                        </div>
-                                                        <div className="media-items">
-                                                            <div className="media-item">
-                                                                <div className="media-value">4,872</div>
-                                                                <div className="media-label">Posts</div>
-                                                            </div>
-                                                            <div className="media-item">
-                                                                <div className="media-value">43K</div>
-                                                                <div className="media-label">Followers</div>
-                                                            </div>
-                                                            <div className="media-item">
-                                                                <div className="media-value">1,290</div>
-                                                                <div className="media-label">Following</div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li className="media">
-                                                        <img
-                                                            alt="image"
-                                                            className="mr-3 rounded-circle"
-                                                            width="50"
-                                                            src="../assets/img/avatar/avatar-4.png"/>
-                                                        <div className="media-body">
-                                                            <div className="media-title">Hasan Basri</div>
-                                                            <div className="text-job text-muted">Web Developer</div>
-                                                        </div>
-                                                        <div className="media-items">
-                                                            <div className="media-item">
-                                                                <div className="media-value">1,821</div>
-                                                                <div className="media-label">Posts</div>
-                                                            </div>
-                                                            <div className="media-item">
-                                                                <div className="media-value">14K</div>
-                                                                <div className="media-label">Followers</div>
-                                                            </div>
-                                                            <div className="media-item">
-                                                                <div className="media-value">2,891</div>
-                                                                <div className="media-label">Following</div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
+                                                   <StatRow data = {{service:"serv jkalkj adkfak",typeService : "tp",nbrSeance:3, earning : +2000,rating:4,nbrRating:344}}/>
+                                                   <StatRow data = {{service:"serv",typeService : "tp",nbrSeance:3, earning : +2000,rating:4,nbrRating:344}}/>
+                                                   <StatRow data = {{service:"serv",typeService : "tp",nbrSeance:3, earning : +2000,rating:4,nbrRating:344}}/>
+                                                   <StatRow data = {{service:"serv",typeService : "tp",nbrSeance:3, earning : +2000,rating:4,nbrRating:344}}/>
+
                                                 </ul>
                                             </div>
                                         </div>
