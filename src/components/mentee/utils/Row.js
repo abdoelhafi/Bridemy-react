@@ -6,13 +6,13 @@ const _MS_PER_DAY = 1000 * 60 * 60 * 24;
 class Row extends React.Component {
 
     typeOfCss(date) {
-        // Discard the time and time-zone information.
         const todate = new Date();
         const utcDate = Date.UTC(date.getFullYear(), date.getMonth(), date.getDate());
         const utcTodate = Date.UTC(todate.getFullYear(), todate.getMonth(), todate.getDate());
         if ((utcTodate - utcDate)>0) return "badge-secondary";
       
-        const res = Math.floor((utcTodate - utcDate) / _MS_PER_DAY);
+        const res = Math.floor((utcDate - utcTodate) / _MS_PER_DAY);
+        console.log(date + " "+res);
         return res > 2 ? "badge-success" : "badge-warning";
       }
     

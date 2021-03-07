@@ -1,7 +1,9 @@
-import DashMentor from './components/DashMentor';
-import Navbar from './components/common/NavBar';
-import Footer from './components/common/Footer';
-import SideBar from './components/common/SideBar';
+import DashMentor from './components/mentor/DashMentor';
+import DashMentee from './components/mentee/DashMentee';
+
+import Navbar from './components/mentor/common/NavBar';
+import Footer from './components/mentor/common/Footer';
+import SideBar from './components/mentor/common/SideBar';
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
         <Navbar/>
         <SideBar/>
         <DashMentor />
-
+{/* <DashMentee /> */}
         <Footer/>
 </body>
     </div>

@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
-import Row from '../components/utils/Row'
-import StatRow from '../components/utils/StatRow';
+import Row from '../../components/mentor/utils/Row'
+import StatRow from '../../components/mentor/utils/StatRow';
 
 
 class DashMentor extends React.Component {
@@ -38,7 +38,7 @@ class DashMentor extends React.Component {
                                                            <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"2021-05-04"}} />
                                                            <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"2023-05-04"}} />
                                                            <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"2021-03-04"}} />
-                                                           <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"2021-03-07"}} />
+                                                           <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"2021-03-08"}} />
 
                                                         
                                                         </table>
@@ -89,9 +89,9 @@ class DashMentor extends React.Component {
                                                                 <th>date</th>
                                                             </tr>
                                                            <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"2014-02-03"}} />
-                                                           <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"date of se"}} />
-                                                           <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"date of se"}} />
-                                                           <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"date of se"}} />
+                                                           <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"2023-05-04"}} />
+                                                           <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"2020-02-04"}} />
+                                                           <Row data = {{mentee:"ali",service:"serv",typeService:"type",price :"34",date:"2020-03-04"}} />
 
                                                         
                                                         </table>
