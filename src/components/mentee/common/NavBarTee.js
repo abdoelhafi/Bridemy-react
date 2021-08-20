@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 
-class NavBar extends React.Component {
+class NavBarTee extends React.Component {
     render() {
         return (<Fragment>
             <nav id="navbar" className="navbar navbar-expand-lg main-navbar">
@@ -123,4 +123,4 @@ class NavBar extends React.Component {
     }
 }
 
-export default NavBar;
+export default NavBarTee;

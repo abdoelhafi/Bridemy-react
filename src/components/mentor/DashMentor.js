@@ -6,7 +6,6 @@ import StatRow from '../../components/mentor/utils/StatRow';
 class DashMentor extends React.Component {
     
     render() {
-
         return (
             <Fragment>
                 <div id="app">
